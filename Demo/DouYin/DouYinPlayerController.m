@@ -252,7 +252,7 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataSource.count;
+    return [self.dataSource count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -260,11 +260,11 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
     if (row % 2 == 0) {
         DouYinPlayerCell *cell = [tableView dequeueReusableCellWithIdentifier:kPlayIdentifier];
         cell.delegate = self;
-        cell.data = self.dataSource[row];
+        [cell fillData:self.dataSource[row]];
         return cell;
     } else {
         DouYinImageCell *cell = [tableView dequeueReusableCellWithIdentifier:kImageIdentifier];
-        cell.data = self.dataSource[row];
+        [cell fillData:self.dataSource[row]];
         return cell;
     }
 }

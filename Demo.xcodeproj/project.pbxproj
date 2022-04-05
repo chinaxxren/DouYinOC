@@ -14,7 +14,7 @@
 		8227C57627FA08DA008B7CAF /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57527FA08DA008B7CAF /* NSString+Size.m */; };
 		8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57827FA0951008B7CAF /* CustomControlView.m */; };
 		8227C57D27FC2E95008B7CAF /* DouYinMixController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57B27FC2E95008B7CAF /* DouYinMixController.m */; };
-		B6D61317DAEB8162BA5E378A /* DouYinBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D61BCD29B5732F3A71CB71 /* DouYinBaseCell.m */; };
+		B6D6102F885AAAC539377D52 /* DouYinView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D614FE0677FCE8AD898964 /* DouYinView.m */; };
 		B6D617A259C8889BFB567B2E /* PreLoaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6101EF164960B5172BA47 /* PreLoaderModel.m */; };
 		B6D61927BF8217C196773466 /* DouYinPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */; };
 		B6D619697A387C4DB80D43FE /* PreLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D618BA63D23945B4313B8A /* PreLoaderManager.m */; };
@@ -61,13 +61,13 @@
 		B6D6101EF164960B5172BA47 /* PreLoaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoaderModel.m; sourceTree = "<group>"; };
 		B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinPlayerController.m; sourceTree = "<group>"; };
 		B6D611AB981BE00BC9E67C80 /* DouYinPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinPlayerController.h; sourceTree = "<group>"; };
-		B6D614977AC69F10BF1E7FE1 /* DouYinBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinBaseCell.h; sourceTree = "<group>"; };
+		B6D614FE0677FCE8AD898964 /* DouYinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinView.m; sourceTree = "<group>"; };
 		B6D61549A56B6276D084ECBD /* PreLoaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreLoaderModel.h; sourceTree = "<group>"; };
+		B6D615D3879392F165F238BD /* DouYinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinView.h; sourceTree = "<group>"; };
 		B6D615D8F6AE72A9E4A376C1 /* DouYinImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinImageCell.h; sourceTree = "<group>"; };
 		B6D618BA63D23945B4313B8A /* PreLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoaderManager.m; sourceTree = "<group>"; };
 		B6D61B0DE0E918B240898439 /* Playable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playable.h; sourceTree = "<group>"; };
 		B6D61BBD1A76BC55D1BF964F /* PreLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreLoaderManager.h; sourceTree = "<group>"; };
-		B6D61BCD29B5732F3A71CB71 /* DouYinBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinBaseCell.m; sourceTree = "<group>"; };
 		B93169BA1F16069B00415528 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9BEADC71D253B97003303C1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BEADCB1D253B97003303C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 				8227C57827FA0951008B7CAF /* CustomControlView.m */,
 				B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */,
 				B6D615D8F6AE72A9E4A376C1 /* DouYinImageCell.h */,
-				B6D61BCD29B5732F3A71CB71 /* DouYinBaseCell.m */,
-				B6D614977AC69F10BF1E7FE1 /* DouYinBaseCell.h */,
+				B6D614FE0677FCE8AD898964 /* DouYinView.m */,
+				B6D615D3879392F165F238BD /* DouYinView.h */,
 			);
 			path = DouYin;
 			sourceTree = "<group>";
@@ -402,7 +402,7 @@
 				8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */,
 				8227C57D27FC2E95008B7CAF /* DouYinMixController.m in Sources */,
 				B6D61AB21CEDFF01504044DD /* DouYinImageCell.m in Sources */,
-				B6D61317DAEB8162BA5E378A /* DouYinBaseCell.m in Sources */,
+				B6D6102F885AAAC539377D52 /* DouYinView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

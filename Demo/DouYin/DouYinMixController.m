@@ -141,11 +141,11 @@ static NSString *kPlayerIdentifier = @"kPlayerIdentifier";
     if (indexPath.row % 2 == 0) {
         DouYinPlayerCell *cell = [tableView dequeueReusableCellWithIdentifier:kPlayerIdentifier];
         cell.delegate = self;
-        cell.data = self.dataSource[indexPath.row];
+        [cell fillData:self.dataSource[indexPath.row]];
         return cell;
     }
     DouYinImageCell *cell = [tableView dequeueReusableCellWithIdentifier:kImageIdentifier];
-    cell.data = self.dataSource[indexPath.row];
+    [cell fillData:self.dataSource[indexPath.row]];
     return cell;
 }
 

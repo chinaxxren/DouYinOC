@@ -7,7 +7,8 @@
 
 @class VideoData;
 
-@interface DouYinBaseCell : UITableViewCell
+
+@interface DouYinView : UIView
 
 @property(nonatomic, strong) VideoData *data;
 

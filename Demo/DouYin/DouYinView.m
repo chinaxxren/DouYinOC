@@ -3,8 +3,7 @@
 // Copyright (c) 2022 Jiangmingz. All rights reserved.
 //
 
-
-#import "DouYinBaseCell.h"
+#import "DouYinView.h"
 
 #import <ZFPlayer/UIImageView+ZFCache.h>
 #import <ZFPlayer/UIView+ZFFrame.h>
@@ -13,7 +12,7 @@
 #import "VideoData.h"
 #import "DonYinConstant.h"
 
-@interface DouYinBaseCell ()
+@interface DouYinView ()
 
 @property(nonatomic, strong) UIImageView *coverImageView;
 
@@ -29,26 +28,24 @@
 
 @end
 
-@implementation DouYinBaseCell
+@implementation DouYinView
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+- (instancetype)init {
+    self = [super init];
     if (self) {
-        self.selectionStyle = UITableViewCellSelectionStyleNone;
-        self.contentView.backgroundColor = [UIColor blackColor];
-        [self.contentView addSubview:self.coverImageView];
-        [self.contentView addSubview:self.titleLabel];
-        [self.contentView addSubview:self.likeBtn];
-        [self.contentView addSubview:self.commentBtn];
-        [self.contentView addSubview:self.shareBtn];
+        [self addSubview:self.coverImageView];
+        [self addSubview:self.titleLabel];
+        [self addSubview:self.likeBtn];
+        [self addSubview:self.commentBtn];
+        [self addSubview:self.shareBtn];
     }
     return self;
 }
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
-    self.coverImageView.frame = self.contentView.bounds;
+
+    self.coverImageView.frame = self.bounds;
 
     CGFloat min_x = 0;
     CGFloat min_y = 0;

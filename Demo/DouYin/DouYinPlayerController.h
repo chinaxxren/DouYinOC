@@ -7,4 +7,6 @@
 
 @interface DouYinPlayerController : UIViewController
 
+- (void)playTheIndex:(NSInteger)index;
+
 @end
