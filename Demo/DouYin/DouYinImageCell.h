@@ -4,10 +4,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DouYinBaseCell.h"
 
 @class VideoData;
 
-@interface DouYinImageCell : UITableViewCell
+@interface DouYinImageCell : DouYinBaseCell
 
 - (void)fillData:(VideoData *)data;
 

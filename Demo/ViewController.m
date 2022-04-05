@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "DouYinPlayerController.h"
-#import "DouYinMixController.h"
 
 @interface ViewController ()
 

@@ -3,7 +3,7 @@
 // Copyright (c) 2022 Jiangmingz. All rights reserved.
 //
 
-#import "DouYinView.h"
+#import "DouYinBaseCell.h"
 
 #import <ZFPlayer/UIImageView+ZFCache.h>
 #import <ZFPlayer/UIView+ZFFrame.h>
@@ -12,7 +12,7 @@
 #import "VideoData.h"
 #import "DonYinConstant.h"
 
-@interface DouYinView ()
+@interface DouYinBaseCell ()
 
 @property(nonatomic, strong) UIImageView *coverImageView;
 
@@ -26,18 +26,22 @@
 
 @property(nonatomic, strong) UIImage *placeholderImage;
 
+@property(nonatomic, strong) VideoData *data;
+
 @end
 
-@implementation DouYinView
+@implementation DouYinBaseCell
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        [self addSubview:self.coverImageView];
-        [self addSubview:self.titleLabel];
-        [self addSubview:self.likeBtn];
-        [self addSubview:self.commentBtn];
-        [self addSubview:self.shareBtn];
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        self.contentView.backgroundColor = [UIColor blackColor];
+        [self.contentView addSubview:self.coverImageView];
+        [self.contentView addSubview:self.titleLabel];
+        [self.contentView addSubview:self.likeBtn];
+        [self.contentView addSubview:self.commentBtn];
+        [self.contentView addSubview:self.shareBtn];
     }
     return self;
 }
@@ -93,16 +97,15 @@
 
 - (UIButton *)likeBtn {
     if (!_likeBtn) {
-        _likeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _likeBtn = [UIButton new];
         [_likeBtn setImage:[UIImage imageNamed:@"like"] forState:UIControlStateNormal];
     }
     return _likeBtn;
 }
 
-
 - (UIButton *)commentBtn {
     if (!_commentBtn) {
-        _commentBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _commentBtn = [UIButton new];
         [_commentBtn setImage:[UIImage imageNamed:@"comment"] forState:UIControlStateNormal];
     }
     return _commentBtn;
@@ -110,7 +113,7 @@
 
 - (UIButton *)shareBtn {
     if (!_shareBtn) {
-        _shareBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _shareBtn = [UIButton new];
         [_shareBtn setImage:[UIImage imageNamed:@"share"] forState:UIControlStateNormal];
     }
     return _shareBtn;
@@ -123,17 +126,21 @@
     return _placeholderImage;
 }
 
-- (void)setData:(VideoData *)data {
+- (void)setData:(VideoData *)data isPlayerView:(BOOL)isPlayerView {
     _data = data;
-    [self.coverImageView setImageWithURLString:data.cover placeholder:[UIImage imageNamed:@"loading_bgView"]];
+    if (isPlayerView) {
+        _coverImageView.tag = kPlayerViewTag;
+    } else {
+        _coverImageView.tag = 0;
+    }
     self.titleLabel.text = data.title;
+    [self.coverImageView setImageWithURLString:self.data.cover placeholder:[UIImage imageNamed:@"loading_bgView"]];
 }
 
 - (UIImageView *)coverImageView {
     if (!_coverImageView) {
         _coverImageView = [[UIImageView alloc] init];
         _coverImageView.userInteractionEnabled = YES;
-        _coverImageView.tag = kPlayerViewTag;
         _coverImageView.contentMode = UIViewContentModeScaleAspectFit;
     }
     return _coverImageView;

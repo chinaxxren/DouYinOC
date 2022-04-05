@@ -13,8 +13,7 @@
 		8227C57327FA05C2008B7CAF /* DouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57127FA05C2008B7CAF /* DouYinControlView.m */; };
 		8227C57627FA08DA008B7CAF /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57527FA08DA008B7CAF /* NSString+Size.m */; };
 		8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57827FA0951008B7CAF /* CustomControlView.m */; };
-		8227C57D27FC2E95008B7CAF /* DouYinMixController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57B27FC2E95008B7CAF /* DouYinMixController.m */; };
-		B6D6102F885AAAC539377D52 /* DouYinView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D614FE0677FCE8AD898964 /* DouYinView.m */; };
+		B6D612167D5CB9C0F674DE38 /* DouYinBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D617CE2028FC2B371F7446 /* DouYinBaseCell.m */; };
 		B6D617A259C8889BFB567B2E /* PreLoaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6101EF164960B5172BA47 /* PreLoaderModel.m */; };
 		B6D61927BF8217C196773466 /* DouYinPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */; };
 		B6D619697A387C4DB80D43FE /* PreLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D618BA63D23945B4313B8A /* PreLoaderManager.m */; };
@@ -55,16 +54,14 @@
 		8227C57727FA0951008B7CAF /* CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomControlView.h; sourceTree = "<group>"; };
 		8227C57827FA0951008B7CAF /* CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomControlView.m; sourceTree = "<group>"; };
 		8227C57A27FA0AFE008B7CAF /* DonYinConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DonYinConstant.h; sourceTree = "<group>"; };
-		8227C57B27FC2E95008B7CAF /* DouYinMixController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinMixController.m; sourceTree = "<group>"; };
-		8227C57C27FC2E95008B7CAF /* DouYinMixController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinMixController.h; sourceTree = "<group>"; };
 		B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinImageCell.m; sourceTree = "<group>"; };
 		B6D6101EF164960B5172BA47 /* PreLoaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoaderModel.m; sourceTree = "<group>"; };
 		B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinPlayerController.m; sourceTree = "<group>"; };
 		B6D611AB981BE00BC9E67C80 /* DouYinPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinPlayerController.h; sourceTree = "<group>"; };
-		B6D614FE0677FCE8AD898964 /* DouYinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinView.m; sourceTree = "<group>"; };
+		B6D614FCC1F1E6FCEF01F6DB /* DouYinBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinBaseCell.h; sourceTree = "<group>"; };
 		B6D61549A56B6276D084ECBD /* PreLoaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreLoaderModel.h; sourceTree = "<group>"; };
-		B6D615D3879392F165F238BD /* DouYinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinView.h; sourceTree = "<group>"; };
 		B6D615D8F6AE72A9E4A376C1 /* DouYinImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinImageCell.h; sourceTree = "<group>"; };
+		B6D617CE2028FC2B371F7446 /* DouYinBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinBaseCell.m; sourceTree = "<group>"; };
 		B6D618BA63D23945B4313B8A /* PreLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoaderManager.m; sourceTree = "<group>"; };
 		B6D61B0DE0E918B240898439 /* Playable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playable.h; sourceTree = "<group>"; };
 		B6D61BBD1A76BC55D1BF964F /* PreLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreLoaderManager.h; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 		8227C56927FA053B008B7CAF /* DouYin */ = {
 			isa = PBXGroup;
 			children = (
-				8227C57C27FC2E95008B7CAF /* DouYinMixController.h */,
-				8227C57B27FC2E95008B7CAF /* DouYinMixController.m */,
 				8227C56E27FA05B4008B7CAF /* DouYinPlayerCell.h */,
 				8227C56F27FA05B4008B7CAF /* DouYinPlayerCell.m */,
 				8227C57227FA05C2008B7CAF /* DouYinControlView.h */,
@@ -143,8 +138,8 @@
 				8227C57827FA0951008B7CAF /* CustomControlView.m */,
 				B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */,
 				B6D615D8F6AE72A9E4A376C1 /* DouYinImageCell.h */,
-				B6D614FE0677FCE8AD898964 /* DouYinView.m */,
-				B6D615D3879392F165F238BD /* DouYinView.h */,
+				B6D617CE2028FC2B371F7446 /* DouYinBaseCell.m */,
+				B6D614FCC1F1E6FCEF01F6DB /* DouYinBaseCell.h */,
 			);
 			path = DouYin;
 			sourceTree = "<group>";
@@ -400,9 +395,8 @@
 				8227C57027FA05B4008B7CAF /* DouYinPlayerCell.m in Sources */,
 				B6D61927BF8217C196773466 /* DouYinPlayerController.m in Sources */,
 				8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */,
-				8227C57D27FC2E95008B7CAF /* DouYinMixController.m in Sources */,
 				B6D61AB21CEDFF01504044DD /* DouYinImageCell.m in Sources */,
-				B6D6102F885AAAC539377D52 /* DouYinView.m in Sources */,
+				B6D612167D5CB9C0F674DE38 /* DouYinBaseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

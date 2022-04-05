@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "DouYinPlayerCellDelegate.h"
+#import "DouYinBaseCell.h"
 
 @class VideoData;
 
-@interface DouYinPlayerCell : UITableViewCell
+@interface DouYinPlayerCell : DouYinBaseCell
 
 @property(nonatomic, weak) id <DouYinPlayerCellDelegate> delegate;
 

@@ -11,12 +11,10 @@
 #import <ZFPlayer/UIView+ZFFrame.h>
 
 #import "VideoData.h"
-#import "DouYinView.h"
 
 @interface DouYinPlayerCell ()
 
 @property(nonatomic, strong) UIButton *rotation;
-@property(nonatomic, strong) DouYinView *douYinView;
 
 @end
 
@@ -25,16 +23,13 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.selectionStyle = UITableViewCellSelectionStyleNone;
-        self.contentView.backgroundColor = [UIColor blackColor];
-        [self.contentView addSubview:self.douYinView];
         [self.contentView addSubview:self.rotation];
     }
     return self;
 }
 
 - (void)fillData:(VideoData *)data {
-    self.douYinView.data = data;
+    [self setData:data isPlayerView:YES];
 
     if (data.width > data.height) { /// 横屏视频才支持旋转
         self.rotation.hidden = NO;
@@ -45,8 +40,6 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-
-    self.douYinView.frame = self.bounds;
 
     CGFloat min_view_h = self.zf_height;
     CGFloat min_x = 20;
@@ -66,13 +59,6 @@
 }
 
 #pragma mark - getter
-
-- (DouYinView *)douYinView {
-    if (!_douYinView) {
-        _douYinView = [DouYinView new];
-    }
-    return _douYinView;
-}
 
 - (UIButton *)rotation {
     if (!_rotation) {

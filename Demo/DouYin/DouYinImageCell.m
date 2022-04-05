@@ -4,12 +4,8 @@
 //
 
 #import "DouYinImageCell.h"
-#import "DouYinView.h"
-
 
 @interface DouYinImageCell ()
-
-@property(nonatomic, strong) DouYinView *douYinView;
 
 @end
 
@@ -18,27 +14,13 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.contentView.backgroundColor = [UIColor grayColor];
-        [self.contentView addSubview:self.douYinView];
+
     }
     return self;
 }
 
 - (void)fillData:(VideoData *)data {
-    self.douYinView.data = data;
-}
-
-- (void)layoutSubviews {
-    [super layoutSubviews];
-
-    self.douYinView.frame = self.bounds;
-}
-
-- (DouYinView *)douYinView {
-    if (!_douYinView) {
-        _douYinView = [DouYinView new];
-    }
-    return _douYinView;
+    [self setData:data isPlayerView:NO];
 }
 
 @end
