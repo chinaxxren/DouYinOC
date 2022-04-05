@@ -1,5 +1,5 @@
 //
-//  DouYinPlayCell.h
+//  DouYinPlayerCell.h
 //  ZFPlayer_Example
 //
 //  Created by 紫枫 on 2018/6/4.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "DouYinBaseCell.h"
-#import "DouYinCellDelegate.h"
+#import "DouYinPlayerCellDelegate.h"
 
-@interface DouYinPlayCell : DouYinBaseCell
+@interface DouYinPlayerCell : DouYinBaseCell
 
-@property (nonatomic, weak) id<DouYinCellDelegate> delegate;
+@property (nonatomic, weak) id<DouYinPlayerCellDelegate> delegate;
 
 @end

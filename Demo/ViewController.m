@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "DouYinViewController.h"
+#import "DouYinPlayerController.h"
+#import "DouYinMixController.h"
 
 @interface ViewController ()
 
@@ -23,7 +24,8 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    DouYinViewController *controller = [DouYinViewController new];
+    DouYinPlayerController *controller = [DouYinPlayerController new];
+//    DouYinMixController *controller = [DouYinMixController new];
     [self.navigationController pushViewController:controller animated:YES];
 }
 

@@ -5,6 +5,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DouYinViewController : UIViewController
+@interface DouYinPlayerController : UIViewController
 
 @end

@@ -3,13 +3,13 @@
 // Copyright (c) 2022 Jiangmingz. All rights reserved.
 //
 
-#import "DouYinViewController.h"
+#import "DouYinPlayerController.h"
 
 #import <ZFPlayer/ZFAVPlayerManager.h>
 #import <ZFPlayer/ZFPlayerControlView.h>
 #import <MJRefresh/MJRefresh.h>
 
-#import "DouYinPlayCell.h"
+#import "DouYinPlayerCell.h"
 #import "DouYinControlView.h"
 #import "CustomControlView.h"
 #import "PreLoaderManager.h"
@@ -20,7 +20,7 @@
 static NSString *kPlayIdentifier = @"kPlayIdentifier";
 static NSString *kImageIdentifier = @"kImageIdentifier";
 
-@interface DouYinViewController () <UITableViewDelegate, UITableViewDataSource, DouYinCellDelegate>
+@interface DouYinPlayerController () <UITableViewDelegate, UITableViewDataSource, DouYinPlayerCellDelegate>
 
 @property(nonatomic, strong) UITableView *tableView;
 @property(nonatomic, strong) ZFPlayerController *player;
@@ -32,7 +32,7 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 
 @end
 
-@implementation DouYinViewController
+@implementation DouYinPlayerController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -60,6 +60,8 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
     self.player.WWANAutoPlay = YES;
     /// 1.0是完全消失时候
     self.player.playerDisapperaPercent = 1.0;
+    /// 播放器view露出一半时候开始播放
+    self.player.playerApperaPercent = .5;
 
     @zf_weakify(self)
     self.player.playerDidToEnd = ^(id _Nonnull asset) {
@@ -103,18 +105,31 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
         }
     };
 
-    /// 停止的时候找出最合适的播放
-    self.player.zf_scrollViewDidEndScrollingCallback = ^(NSIndexPath *_Nonnull indexPath) {
+    /// 停止的时候找出最合适的播放(只能找到设置了tag值cell)
+    self.player.zf_scrollViewDidEndScrollingCallback = ^(NSIndexPath * _Nonnull indexPath) {
         @zf_strongify(self)
-        if (self.player.playingIndexPath) return;
         if (indexPath.row == self.dataSource.count - 1) {
             /// 加载下一页数据
             [self requestData];
             [self.tableView reloadData];
         }
-        [self playTheVideoAtIndexPath:indexPath];
+        
+        if (!self.player.playingIndexPath) {
+            [self playTheVideoAtIndexPath:indexPath];
+        }
     };
 
+     
+    /// 滑动中找到适合的就自动播放
+    /// 如果是停止后再寻找播放可以忽略这个回调
+    /// 如果在滑动中就要寻找到播放的indexPath，并且开始播放，那就要这样写
+    self.player.zf_playerShouldPlayInScrollView = ^(NSIndexPath * _Nonnull indexPath) {
+        @zf_strongify(self)
+        if ([indexPath compare:self.player.playingIndexPath] != NSOrderedSame) {
+            [self playTheVideoAtIndexPath:indexPath];
+        }
+    };
+    
     self.player.presentationSizeChanged = ^(id <ZFPlayerMediaPlayback> _Nonnull asset, CGSize size) {
         @zf_strongify(self)
         if (size.width >= size.height) {
@@ -136,6 +151,7 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 
     if (!self.isInited) {
         self.isInited = YES;
+        
         @zf_weakify(self)
         [self.tableView zf_filterShouldPlayCellWhileScrolled:^(NSIndexPath *indexPath) {
             @zf_strongify(self)
@@ -242,25 +258,15 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSInteger row = indexPath.row;
     if (row % 2 == 0) {
-        DouYinPlayCell *cell = [tableView dequeueReusableCellWithIdentifier:kPlayIdentifier forIndexPath:indexPath];
+        DouYinPlayerCell *cell = [tableView dequeueReusableCellWithIdentifier:kPlayIdentifier];
         cell.delegate = self;
         cell.data = self.dataSource[row];
         return cell;
     } else {
-        DouYinImageCell *cell = [tableView dequeueReusableCellWithIdentifier:kImageIdentifier forIndexPath:indexPath];
+        DouYinImageCell *cell = [tableView dequeueReusableCellWithIdentifier:kImageIdentifier];
         cell.data = self.dataSource[row];
         return cell;
     }
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self playTheVideoAtIndexPath:indexPath];
-}
-
-#pragma mark - ZFTableViewCellDelegate
-
-- (void)zf_playTheVideoAtIndexPath:(NSIndexPath *)indexPath {
-    [self playTheVideoAtIndexPath:indexPath];
 }
 
 #pragma mark - private method
@@ -272,14 +278,9 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 /// play the video
 - (void)playTheVideoAtIndexPath:(NSIndexPath *)indexPath {
     VideoData *data = self.dataSource[indexPath.row];
-    if (indexPath.row % 2 == 0) {
-        PreLoaderManager *manager = [PreLoaderManager shared];
-        NSURL *URL = [manager playCurrentURL:data];
-        [self.player playTheIndexPath:indexPath assetURL:URL];
-        [self.player.currentPlayerManager play];
-    } else {
-        [self.player.currentPlayerManager pause];
-    }
+    PreLoaderManager *manager = [PreLoaderManager shared];
+    NSURL *URL = [manager playCurrentURL:data];
+    [self.player playTheIndexPath:indexPath assetURL:URL];
     [self.controlView resetControlView];
     [self.controlView showCoverViewWithUrl:data.cover];
     [self.fullControlView showTitle:@"custom landscape controlView" coverURLString:data.cover fullScreenMode:ZFFullScreenModeLandscape];
@@ -291,7 +292,7 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
         _tableView.pagingEnabled = YES;
-        [_tableView registerClass:[DouYinPlayCell class] forCellReuseIdentifier:kPlayIdentifier];
+        [_tableView registerClass:[DouYinPlayerCell class] forCellReuseIdentifier:kPlayIdentifier];
         [_tableView registerClass:[DouYinImageCell class] forCellReuseIdentifier:kImageIdentifier];
         _tableView.backgroundColor = [UIColor lightGrayColor];
         _tableView.delegate = self;

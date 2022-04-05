@@ -1,5 +1,5 @@
 //
-//  DouYinCellDelegate.h
+//  DouYinPlayerCellDelegate.h
 //  ZFPlayer_Example
 //
 //  Created by 任子丰 on 2020/7/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol DouYinCellDelegate <NSObject>
+@protocol DouYinPlayerCellDelegate <NSObject>
 
 - (void)zf_douyinRotation;
 

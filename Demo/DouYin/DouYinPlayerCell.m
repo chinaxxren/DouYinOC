@@ -1,36 +1,24 @@
 //
-//  DouYinPlayCell.m
+//  DouYinPlayerCell.m
 //  ZFPlayer_Example
 //
 //  Created by 紫枫 on 2018/6/4.
 //  Copyright © 2018年 紫枫. All rights reserved.
 //
 
-#import "DouYinPlayCell.h"
+#import "DouYinPlayerCell.h"
 
 #import <ZFPlayer/UIView+ZFFrame.h>
 
 #import "VideoData.h"
 
-@interface DouYinPlayCell ()
-
-@property(nonatomic, strong) UIImageView *coverImageView;
-
-@property(nonatomic, strong) UIButton *likeBtn;
-
-@property(nonatomic, strong) UIButton *commentBtn;
-
-@property(nonatomic, strong) UIButton *shareBtn;
-
-@property(nonatomic, strong) UILabel *titleLabel;
-
-@property(nonatomic, strong) UIImage *placeholderImage;
+@interface DouYinPlayerCell ()
 
 @property(nonatomic, strong) UIButton *rotation;
 
 @end
 
-@implementation DouYinPlayCell
+@implementation DouYinPlayerCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -42,8 +30,6 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-
-    self.coverImageView.frame = self.contentView.bounds;
 
     CGFloat min_view_h = self.zf_height;
     CGFloat min_x = 20;
