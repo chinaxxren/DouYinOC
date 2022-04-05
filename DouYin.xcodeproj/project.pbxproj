@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079251E164CF08DD19538597 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D40854D13A021B1A491DF /* Pods_Demo.framework */; };
 		8227C56827F98147008B7CAF /* VideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C56727F98147008B7CAF /* VideoData.m */; };
 		8227C57027FA05B4008B7CAF /* DouYinPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C56F27FA05B4008B7CAF /* DouYinPlayerCell.m */; };
 		8227C57327FA05C2008B7CAF /* DouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57127FA05C2008B7CAF /* DouYinControlView.m */; };
 		8227C57627FA08DA008B7CAF /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57527FA08DA008B7CAF /* NSString+Size.m */; };
 		8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57827FA0951008B7CAF /* CustomControlView.m */; };
+		8FCFD824EEA9B19F85F38EBD /* Pods_DouYin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA628110EC389BAF90C49E /* Pods_DouYin.framework */; };
 		B6D612167D5CB9C0F674DE38 /* DouYinBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D617CE2028FC2B371F7446 /* DouYinBaseCell.m */; };
 		B6D617A259C8889BFB567B2E /* PreLoaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6101EF164960B5172BA47 /* PreLoaderModel.m */; };
 		B6D61927BF8217C196773466 /* DouYinPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */; };
 		B6D619697A387C4DB80D43FE /* PreLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D618BA63D23945B4313B8A /* PreLoaderManager.m */; };
 		B6D61AB21CEDFF01504044DD /* DouYinImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */; };
-		B93169BB1F16069B00415528 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B93169BA1F16069B00415528 /* Podfile */; };
 		B9BEADCC1D253B97003303C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEADCB1D253B97003303C1 /* main.m */; };
 		B9BEADCF1D253B97003303C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEADCE1D253B97003303C1 /* AppDelegate.m */; };
 		B9BEADD21D253B97003303C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEADD11D253B97003303C1 /* ViewController.m */; };
 		B9BEADD71D253B97003303C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEADD61D253B97003303C1 /* Assets.xcassets */; };
 		B9BEADDA1D253B97003303C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEADD81D253B97003303C1 /* LaunchScreen.storyboard */; };
-		B9BEADE51D253B97003303C1 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEADE41D253B97003303C1 /* DemoTests.m */; };
+		B9BEADE51D253B97003303C1 /* DouYinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEADE41D253B97003303C1 /* DouYinTests.m */; };
 		B9DE85A21F6A523600577A7C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE85A11F6A523600577A7C /* MobileCoreServices.framework */; };
 		B9DE85A41F6A523D00577A7C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DE85A31F6A523D00577A7C /* ImageIO.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05441EDCDA21191BBECC7C50 /* Pods-DouYin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYin/Pods-DouYin.debug.xcconfig"; sourceTree = "<group>"; };
 		0C93B04B9AAC753151749DC8 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		8227C56527F98147008B7CAF /* VideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
 		8227C56627F98147008B7CAF /* SourceURLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceURLs.h; sourceTree = "<group>"; };
@@ -54,6 +54,8 @@
 		8227C57727FA0951008B7CAF /* CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomControlView.h; sourceTree = "<group>"; };
 		8227C57827FA0951008B7CAF /* CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomControlView.m; sourceTree = "<group>"; };
 		8227C57A27FA0AFE008B7CAF /* DonYinConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DonYinConstant.h; sourceTree = "<group>"; };
+		832524AD299CC22A9318A3CE /* Pods-DouYin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYin/Pods-DouYin.release.xcconfig"; sourceTree = "<group>"; };
+		9BEA628110EC389BAF90C49E /* Pods_DouYin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinImageCell.m; sourceTree = "<group>"; };
 		B6D6101EF164960B5172BA47 /* PreLoaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoaderModel.m; sourceTree = "<group>"; };
 		B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinPlayerController.m; sourceTree = "<group>"; };
@@ -65,8 +67,7 @@
 		B6D618BA63D23945B4313B8A /* PreLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoaderManager.m; sourceTree = "<group>"; };
 		B6D61B0DE0E918B240898439 /* Playable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playable.h; sourceTree = "<group>"; };
 		B6D61BBD1A76BC55D1BF964F /* PreLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreLoaderManager.h; sourceTree = "<group>"; };
-		B93169BA1F16069B00415528 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B9BEADC71D253B97003303C1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BEADC71D253B97003303C1 /* DouYin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BEADCB1D253B97003303C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9BEADCD1D253B97003303C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9BEADCE1D253B97003303C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,13 +76,12 @@
 		B9BEADD61D253B97003303C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9BEADD91D253B97003303C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9BEADDB1D253B97003303C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9BEADE01D253B97003303C1 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BEADE41D253B97003303C1 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		B9BEADE01D253B97003303C1 /* DouYinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BEADE41D253B97003303C1 /* DouYinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouYinTests.m; sourceTree = "<group>"; };
 		B9BEADE61D253B97003303C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DE85A11F6A523600577A7C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B9DE85A31F6A523D00577A7C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		D77E7D40B81E7A5863108530 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		EB9D40854D13A021B1A491DF /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 			files = (
 				B9DE85A41F6A523D00577A7C /* ImageIO.framework in Frameworks */,
 				B9DE85A21F6A523600577A7C /* MobileCoreServices.framework in Frameworks */,
-				079251E164CF08DD19538597 /* Pods_Demo.framework in Frameworks */,
+				8FCFD824EEA9B19F85F38EBD /* Pods_DouYin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			children = (
 				B9DE85A31F6A523D00577A7C /* ImageIO.framework */,
 				B9DE85A11F6A523600577A7C /* MobileCoreServices.framework */,
-				EB9D40854D13A021B1A491DF /* Pods_Demo.framework */,
+				9BEA628110EC389BAF90C49E /* Pods_DouYin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +120,8 @@
 			children = (
 				D77E7D40B81E7A5863108530 /* Pods-Demo.debug.xcconfig */,
 				0C93B04B9AAC753151749DC8 /* Pods-Demo.release.xcconfig */,
+				05441EDCDA21191BBECC7C50 /* Pods-DouYin.debug.xcconfig */,
+				832524AD299CC22A9318A3CE /* Pods-DouYin.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -147,9 +149,8 @@
 		B9BEADBE1D253B97003303C1 = {
 			isa = PBXGroup;
 			children = (
-				B93169BA1F16069B00415528 /* Podfile */,
-				B9BEADC91D253B97003303C1 /* Demo */,
-				B9BEADE31D253B97003303C1 /* DemoTests */,
+				B9BEADC91D253B97003303C1 /* Source */,
+				B9BEADE31D253B97003303C1 /* DouYinTests */,
 				B9BEADC81D253B97003303C1 /* Products */,
 				41B641E75737E36121115F77 /* Pods */,
 				09268CC64126FE7E65528C7C /* Frameworks */,
@@ -159,13 +160,13 @@
 		B9BEADC81D253B97003303C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEADC71D253B97003303C1 /* Demo.app */,
-				B9BEADE01D253B97003303C1 /* DemoTests.xctest */,
+				B9BEADC71D253B97003303C1 /* DouYin.app */,
+				B9BEADE01D253B97003303C1 /* DouYinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9BEADC91D253B97003303C1 /* Demo */ = {
+		B9BEADC91D253B97003303C1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				8227C56927FA053B008B7CAF /* DouYin */,
@@ -178,18 +179,18 @@
 				8227C56727F98147008B7CAF /* VideoData.m */,
 				8227C57427FA08DA008B7CAF /* NSString+Size.h */,
 				8227C57527FA08DA008B7CAF /* NSString+Size.m */,
-				B9BEADD61D253B97003303C1 /* Assets.xcassets */,
-				B9BEADD81D253B97003303C1 /* LaunchScreen.storyboard */,
-				B9BEADDB1D253B97003303C1 /* Info.plist */,
-				B9BEADCA1D253B97003303C1 /* Supporting Files */,
 				B6D618BA63D23945B4313B8A /* PreLoaderManager.m */,
 				B6D61BBD1A76BC55D1BF964F /* PreLoaderManager.h */,
 				B6D6101EF164960B5172BA47 /* PreLoaderModel.m */,
 				B6D61549A56B6276D084ECBD /* PreLoaderModel.h */,
 				B6D61B0DE0E918B240898439 /* Playable.h */,
 				8227C57A27FA0AFE008B7CAF /* DonYinConstant.h */,
+				B9BEADD61D253B97003303C1 /* Assets.xcassets */,
+				B9BEADD81D253B97003303C1 /* LaunchScreen.storyboard */,
+				B9BEADDB1D253B97003303C1 /* Info.plist */,
+				B9BEADCA1D253B97003303C1 /* Supporting Files */,
 			);
-			path = Demo;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		B9BEADCA1D253B97003303C1 /* Supporting Files */ = {
@@ -200,21 +201,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B9BEADE31D253B97003303C1 /* DemoTests */ = {
+		B9BEADE31D253B97003303C1 /* DouYinTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEADE41D253B97003303C1 /* DemoTests.m */,
+				B9BEADE41D253B97003303C1 /* DouYinTests.m */,
 				B9BEADE61D253B97003303C1 /* Info.plist */,
 			);
-			path = DemoTests;
+			path = DouYinTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9BEADC61D253B97003303C1 /* Demo */ = {
+		B9BEADC61D253B97003303C1 /* DouYin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9BEADE91D253B97003303C1 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = B9BEADE91D253B97003303C1 /* Build configuration list for PBXNativeTarget "DouYin" */;
 			buildPhases = (
 				9E6813B2A2A8513471C0CE21 /* [CP] Check Pods Manifest.lock */,
 				B9BEADC31D253B97003303C1 /* Sources */,
@@ -227,14 +228,14 @@
 			);
 			dependencies = (
 			);
-			name = Demo;
+			name = DouYin;
 			productName = Demo;
-			productReference = B9BEADC71D253B97003303C1 /* Demo.app */;
+			productReference = B9BEADC71D253B97003303C1 /* DouYin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9BEADDF1D253B97003303C1 /* DemoTests */ = {
+		B9BEADDF1D253B97003303C1 /* DouYinTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9BEADEC1D253B97003303C1 /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildConfigurationList = B9BEADEC1D253B97003303C1 /* Build configuration list for PBXNativeTarget "DouYinTests" */;
 			buildPhases = (
 				B9BEADDC1D253B97003303C1 /* Sources */,
 				B9BEADDD1D253B97003303C1 /* Frameworks */,
@@ -245,9 +246,9 @@
 			dependencies = (
 				B9BEADE21D253B97003303C1 /* PBXTargetDependency */,
 			);
-			name = DemoTests;
+			name = DouYinTests;
 			productName = DemoTests;
-			productReference = B9BEADE01D253B97003303C1 /* DemoTests.xctest */;
+			productReference = B9BEADE01D253B97003303C1 /* DouYinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9BEADC21D253B97003303C1 /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = B9BEADC21D253B97003303C1 /* Build configuration list for PBXProject "DouYin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -288,8 +289,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9BEADC61D253B97003303C1 /* Demo */,
-				B9BEADDF1D253B97003303C1 /* DemoTests */,
+				B9BEADC61D253B97003303C1 /* DouYin */,
+				B9BEADDF1D253B97003303C1 /* DouYinTests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +300,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93169BB1F16069B00415528 /* Podfile in Resources */,
 				B9BEADDA1D253B97003303C1 /* LaunchScreen.storyboard in Resources */,
 				B9BEADD71D253B97003303C1 /* Assets.xcassets in Resources */,
 			);
@@ -321,7 +321,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DouYin/Pods-DouYin-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework",
 				"${BUILT_PRODUCTS_DIR}/KTVHTTPCache/KTVHTTPCache.framework",
@@ -338,7 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DouYin/Pods-DouYin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		823CFE1E5C39C6AB273C95B7 /* [CP] Copy Pods Resources */ = {
@@ -347,7 +347,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DouYin/Pods-DouYin-resources.sh",
 				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -356,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DouYin/Pods-DouYin-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E6813B2A2A8513471C0CE21 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,7 +370,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DouYin-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BEADE51D253B97003303C1 /* DemoTests.m in Sources */,
+				B9BEADE51D253B97003303C1 /* DouYinTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +413,7 @@
 /* Begin PBXTargetDependency section */
 		B9BEADE21D253B97003303C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9BEADC61D253B97003303C1 /* Demo */;
+			target = B9BEADC61D253B97003303C1 /* DouYin */;
 			targetProxy = B9BEADE11D253B97003303C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -516,10 +516,10 @@
 		};
 		B9BEADEA1D253B97003303C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D77E7D40B81E7A5863108530 /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = 05441EDCDA21191BBECC7C50 /* Pods-DouYin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = waqu.com.Demo;
@@ -529,10 +529,10 @@
 		};
 		B9BEADEB1D253B97003303C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C93B04B9AAC753151749DC8 /* Pods-Demo.release.xcconfig */;
+			baseConfigurationReference = 832524AD299CC22A9318A3CE /* Pods-DouYin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = waqu.com.Demo;
@@ -548,7 +548,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = waqu.com.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DouYin.app/DouYin";
 			};
 			name = Debug;
 		};
@@ -560,14 +560,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = waqu.com.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DouYin.app/DouYin";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9BEADC21D253B97003303C1 /* Build configuration list for PBXProject "Demo" */ = {
+		B9BEADC21D253B97003303C1 /* Build configuration list for PBXProject "DouYin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9BEADE71D253B97003303C1 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9BEADE91D253B97003303C1 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		B9BEADE91D253B97003303C1 /* Build configuration list for PBXNativeTarget "DouYin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9BEADEA1D253B97003303C1 /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9BEADEC1D253B97003303C1 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+		B9BEADEC1D253B97003303C1 /* Build configuration list for PBXNativeTarget "DouYinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9BEADED1D253B97003303C1 /* Debug */,

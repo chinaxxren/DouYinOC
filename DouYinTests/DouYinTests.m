@@ -1,6 +1,6 @@
 //
-//  DemoTests.m
-//  DemoTests
+//  DouYinTests.m
+//  DouYinTests
 //
 //  Created by Jiangmingz on 2016/6/30.
 //  Copyright © 2016年 Jiangmingz. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface DemoTests : XCTestCase
+@interface DouYinTests : XCTestCase
 
 @end
 
-@implementation DemoTests
+@implementation DouYinTests
 
 - (void)setUp {
     [super setUp];

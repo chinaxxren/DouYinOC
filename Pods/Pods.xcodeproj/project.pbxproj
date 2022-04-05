@@ -80,7 +80,6 @@
 		45A9ADC1DEFB55746F75B1C1814AF078 /* KTVHCHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = C211F2D551269078761B33965585B34B /* KTVHCHTTPConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46CABB2581EDC02E6646E5FE296CEF9C /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B97DEE633171C8481B45FABDCDB7899A /* MJRefreshBackStateFooter.m */; };
 		46EE047317178EA0792C70E6C9D6CD6F /* KTVHCDataUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40AECE8154707DC1602EAC79DBB233FE /* KTVHCDataUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4730CBEE5F4CE4A529BBB7C0EE8342AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */; };
 		479B3CBB0349ABBEBA6AA96CC79CEFFE /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 202138B33595F88719CE6050441C9DEE /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		484548C5D780A8DA124E24C3A27720CD /* MJRefreshStateTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F183DB8694B2DECD406A475195546 /* MJRefreshStateTrailer.m */; };
 		487F9444DB1E2CDE4A05B754C3A2F71C /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FB28B743EF2D137F5564EF254841E8 /* DDData.m */; };
@@ -100,7 +99,6 @@
 		5596BBA32E5CBD8786A59ADB1E24C8BD /* ZFPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 374674E97F1F5BF4908E857902B01738 /* ZFPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5656C1EE1BDB14D36428BA872A3DCE10 /* ZFPortraitControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEAF6A6BB4348786B13B5FE7D6661BA /* ZFPortraitControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		569C9596A1EE66A0867C2F27DB4434FD /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0210A67DE3BC873FC697B51C71EAD6C0 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5723B595879CEED6F686550079832247 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A777E7F1BBCF028CFBF8CD726E5376FE /* Pods-Demo-dummy.m */; };
 		572DBDC37429318F768FD7A21F1C0B70 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2238E73207021ECDB429EA6FBB279D /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57FA1E49974780FFFD6C67FBC5D2E7E7 /* VVDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2784A9618ACBB0F9D8A36E02A72E1995 /* VVDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58517DBD2E79E3334D9B129DFA895689 /* VVLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8985C1B0118FFC349BB30988966B3A1B /* VVLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -112,6 +110,7 @@
 		6372AFD5512AA9D634536E7543652957 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C0C4881E499E09FB85C7A026EC8D40 /* UIScrollView+MJRefresh.m */; };
 		63995C33E927D9D3B07CE043C6B8EF71 /* ZFLandscapeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0A932117E4E432A6CF66A48F0A0D55 /* ZFLandscapeWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64621F95E807778CAA57C6C375F26705 /* KTVHCDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE1A1076EC91B29A3B721CE3354CE1 /* KTVHCDataRequest.m */; };
+		64E3664BAFC22E871BEA76176D13641D /* Pods-DouYin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A29B126019F3251D569F8D62614D3F4 /* Pods-DouYin-dummy.m */; };
 		6517F9D2C068A8FC5E3A7B5C8E21D273 /* KTVHCMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEE92D67F9556F703D65A66F8D75E87 /* KTVHCMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6579F1B66AB9CADABB69B726F8F15225 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A9C68438ADD11AC405FE7648E776D /* NSBundle+MJRefresh.m */; };
 		66DF7D977347B8999CB564495F8CE081 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B32B7FD93EFC1C9F921E3A688DD3D4 /* HTTPRedirectResponse.m */; };
@@ -131,6 +130,7 @@
 		77740C331E3133411185F535D2C3D8CC /* UIView+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A74CFD5EFB3690C5B4B7CC3BBEEE040 /* UIView+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A9956995BC4541FE4BE1E3D161F7AF9 /* ZFOrientationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF3E2314EC46316132E56FCF87D3E2B /* ZFOrientationObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B89CAA4C321248F09A75DBBE4718A7C /* UIView+VVLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9095E0CE75B9818009826EFC5314B6 /* UIView+VVLayout.m */; };
+		7BDB765F84E32C0E3FFCC268919E1744 /* Pods-DouYin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B118238F0C4E27C8C84EC975E83530 /* Pods-DouYin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2708C93A2D921E17CCC091C9E48B3D /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C98B103E2197AAB79FDA11EA6C78E45 /* MultipartMessageHeaderField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB40874A4166FD4F638BB3C805CABE1 /* MultipartMessageHeaderField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CE6862850564273EBDD4153BF94D7C0 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF2D007AC4EB9D8D164ED8FEFF3EAC6 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -168,7 +168,6 @@
 		97DCFD8A4EE141D929CA25E911460EDE /* VVMakeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECAD73F7EB30A1430EFB40F85135A6 /* VVMakeBlock.m */; };
 		9807BF49C74281A14440DACC71E07C4A /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD3ED5EF37D876845783CD035658F4D /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98EAF4CA985CD43CFE416B235817CEFA /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B7A53F23E6BD6A459C73E8C464C813 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		994F26A9DD822D7D58B7D1845E8289AC /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48B031A80937CBA28210AC92E414672 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C41EF0E685AD816D8C26D83B93AB6AF /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD889EFB1A81F465C4817FEF7CE4084 /* MJRefreshStateHeader.m */; };
 		9C5CAF767B0310CF633E93DE1F23F4B7 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FCBDA282F93AEE4CF71C07A5CCE8F6 /* ZFPlayerView.m */; };
 		A0B4D15FF5E1F7BEB71B39F50AD16E6A /* ZFPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 57189BEB7B1054356555E7DF81A9E671 /* ZFPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -249,6 +248,7 @@
 		E938D5B6595330BE72F0CB53EA08F0BA /* KTVCocoaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6185E8AE4791BB6DFCCA4E237C7BDDA3 /* KTVCocoaHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC7A19215B0957CF1EFFF58A1D79F273 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0363984F70FFE31E70B9FE3F88B030D6 /* MJRefreshFooter.m */; };
 		EE85A2DDCED7EE7AB3F57DE292D36C18 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 836A908EA900EE0C19C3C23834E58696 /* MJRefreshHeader.m */; };
+		EFD75CEA9ED10925A8D4867917C3E61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7215DF9F63A8D09187C4B2256176E /* Foundation.framework */; };
 		F0AD0E9222DC4A06FFC0B07737CE2FEA /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A77AA997B9C3945C48510C74E5706AB3 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4A1A6B29CE19F80BDBEBF6EB9C77897 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692BD6C858A100E9F16559CE9EA1291 /* HTTPFileResponse.m */; };
 		F5E575535D380D89C58484428494C85A /* ZFVolumeBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50956391AE95892BF27E20ED0404F1B2 /* ZFVolumeBrightnessView.m */; };
@@ -263,6 +263,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2D028722C0CA90EEE4653A32054ED2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
 		5B32054596B7F440323BBBDE9A17FEE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -270,7 +277,21 @@
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		74A4FE8428D6E7BB0E776EBF3AA47DE0 /* PBXContainerItemProxy */ = {
+		76D9D1B3254AE6B2E89B959074FF1170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FD1F93E0C30B2749BD8A6EC148F233;
+			remoteInfo = ZFPlayer;
+		};
+		8D5DCCF8890CF41FCE318E15E135893E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105186B500AA09A533997F3D16DF7B9E;
+			remoteInfo = KTVCocoaHTTPServer;
+		};
+		9C76FD6ADB6E52925FD9A0EFA79EF65E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -284,55 +305,32 @@
 			remoteGlobalIDString = 105186B500AA09A533997F3D16DF7B9E;
 			remoteInfo = KTVCocoaHTTPServer;
 		};
-		B5B4DED29EA0F31E2E1538EDA944A27F /* PBXContainerItemProxy */ = {
+		D5C2016339B48C660557E7B888ED6FDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8CA0CD098B97A1205DEA694FA044A1C2;
 			remoteInfo = KTVHTTPCache;
 		};
-		B827F708045D6D5FF28FFCEB72951E5F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
-			remoteInfo = MJRefresh;
-		};
-		BB5A1E2DB3EB497986823D9ECE9B8A52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93FD1F93E0C30B2749BD8A6EC148F233;
-			remoteInfo = ZFPlayer;
-		};
-		FA2BA8AAB9250536D8F7E3713A11EF90 /* PBXContainerItemProxy */ = {
+		F96C1B886040F4034BE941F02D549DF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		FD71CA6E68A80E526CBC3131D8BE887C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 105186B500AA09A533997F3D16DF7B9E;
-			remoteInfo = KTVCocoaHTTPServer;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009D9B0C1210895B201C6EEF6D3C4FCE /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		0210A67DE3BC873FC697B51C71EAD6C0 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
 		0363984F70FFE31E70B9FE3F88B030D6 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		0364074C190A5B5167A26E31FF35FF55 /* ZFPlayerLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerLogManager.h; path = ZFPlayer/Classes/Core/ZFPlayerLogManager.h; sourceTree = "<group>"; };
 		040F183DB8694B2DECD406A475195546 /* MJRefreshStateTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshStateTrailer.m; sourceTree = "<group>"; };
 		0694BEF374118445E8D90677687BD456 /* KTVHCDataCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVHCDataCallback.h; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCallback.h; sourceTree = "<group>"; };
+		07205E436D3F1426D1D621D60350D12B /* Pods-DouYin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DouYin-frameworks.sh"; sourceTree = "<group>"; };
 		081A2B9A81DD154A2A71BD678D0A3D31 /* ZFPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFPlayer.release.xcconfig; sourceTree = "<group>"; };
 		08386E9FCA320E72D0A3AFD63D04FE63 /* MJRefreshTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshTrailer.m; path = MJRefresh/Base/MJRefreshTrailer.m; sourceTree = "<group>"; };
 		085A9603FD785755311B78F958C93713 /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
-		08A237A6A9A71BC0A35A6443C7880082 /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		08EBDE9394748B1363E0449ED7E11111 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		08F0227F2ABCB1262B3D00406F2AEE5F /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPDynamicFileResponse.m; path = KTVCocoaHTTPServer/Classes/Responses/HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
 		09AC5D8B3C16357FF7F3E2304E756434 /* NSArray+VVAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+VVAdditions.m"; path = "VVLayout/Source/NSArray+VVAdditions.m"; sourceTree = "<group>"; };
 		09D45DBBDFC1EB7D8FF3EBD28A987884 /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
@@ -351,6 +349,7 @@
 		1692BD6C858A100E9F16559CE9EA1291 /* HTTPFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPFileResponse.m; path = KTVCocoaHTTPServer/Classes/Responses/HTTPFileResponse.m; sourceTree = "<group>"; };
 		17F95166B311F22B7B9A89827C0D2CF8 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeader.h; path = KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeader.h; sourceTree = "<group>"; };
 		1A667F7B4924F405E3D89AEB75BBBD92 /* KTVHCDataUnitItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataUnitItem.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataUnitItem.m; sourceTree = "<group>"; };
+		1F3AC901BC2438E5A6463104DFD2C867 /* Pods-DouYin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouYin.debug.xcconfig"; sourceTree = "<group>"; };
 		1FAF5028E233D5BE459115B73E638EBE /* KTVHCDataLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataLoader.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataLoader.m; sourceTree = "<group>"; };
 		202138B33595F88719CE6050441C9DEE /* DDNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = KTVCocoaHTTPServer/Classes/Categories/DDNumber.h; sourceTree = "<group>"; };
 		21B7A53F23E6BD6A459C73E8C464C813 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
@@ -367,7 +366,6 @@
 		2A74CFD5EFB3690C5B4B7CC3BBEEE040 /* UIView+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Addition.h"; path = "VVLayout/Source/UIView+Addition.h"; sourceTree = "<group>"; };
 		2A8372634DE5E6EE7845730275B56354 /* KTVCocoaHTTPServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTVCocoaHTTPServer.release.xcconfig; sourceTree = "<group>"; };
 		2D8897DAC579BAFDB3A5E9C1DEE0C0AA /* UIFont+VVLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+VVLayout.h"; path = "VVLayout/Source/UIFont+VVLayout.h"; sourceTree = "<group>"; };
-		2E24DD87D418711C2ED9B33B68F35656 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EF3E2314EC46316132E56FCF87D3E2B /* ZFOrientationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFOrientationObserver.h; path = ZFPlayer/Classes/Core/ZFOrientationObserver.h; sourceTree = "<group>"; };
 		2FDA3D5598B9686AFDB713742F724870 /* VVLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVLayout.release.xcconfig; sourceTree = "<group>"; };
 		31288DF614351579C44E4FA64BBC8D94 /* UIFont+VVLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+VVLayout.m"; path = "VVLayout/Source/UIFont+VVLayout.m"; sourceTree = "<group>"; };
@@ -397,7 +395,6 @@
 		4375D9CADA95E0CB2A8995B5648D6D94 /* KTVHCDataCallback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataCallback.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCallback.m; sourceTree = "<group>"; };
 		444AA92DEE7F439734D639E5BD75EBA0 /* KTVHCHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVHCHTTPResponse.h; path = KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPResponse.h; sourceTree = "<group>"; };
 		4658198A2E0A21DF3F1DCE6E6C6EB014 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerControlView.m; path = ZFPlayer/Classes/ControlView/ZFPlayerControlView.m; sourceTree = "<group>"; };
-		46AC4E2D264464225A8C7F65BFDEA60C /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
 		47BE775F991718781AB04D8ACC850E69 /* KTVHTTPCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTVHTTPCache-dummy.m"; sourceTree = "<group>"; };
 		48D86D1B53B8CB76C59017E8E55CC38E /* ZFSmallFloatControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSmallFloatControlView.m; path = ZFPlayer/Classes/ControlView/ZFSmallFloatControlView.m; sourceTree = "<group>"; };
 		498DF70693B3837F6232905376D80F61 /* ZFPortraitControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPortraitControlView.m; path = ZFPlayer/Classes/ControlView/ZFPortraitControlView.m; sourceTree = "<group>"; };
@@ -409,6 +406,7 @@
 		4D682DF5993F6A8846F6F4EEA3903043 /* KTVCocoaHTTPServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KTVCocoaHTTPServer.modulemap; sourceTree = "<group>"; };
 		501E72686EFA7CFEB12C7E756C40DAC1 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPAsyncFileResponse.h; path = KTVCocoaHTTPServer/Classes/Responses/HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
 		50956391AE95892BF27E20ED0404F1B2 /* ZFVolumeBrightnessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFVolumeBrightnessView.m; path = ZFPlayer/Classes/ControlView/ZFVolumeBrightnessView.m; sourceTree = "<group>"; };
+		50CE1FC9246DAC510B49E617D5D7EAB9 /* Pods-DouYin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouYin-Info.plist"; sourceTree = "<group>"; };
 		51256910EDD9839EAE6F01E238717658 /* MJRefreshNormalTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.h; sourceTree = "<group>"; };
 		514F3EAEE98389A85A1432BFACCE2997 /* VVLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VVLayout-Info.plist"; sourceTree = "<group>"; };
 		51A73F350A05AEBE62ECABDA2502FDA7 /* ZFPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerView.h; path = ZFPlayer/Classes/Core/ZFPlayerView.h; sourceTree = "<group>"; };
@@ -418,13 +416,16 @@
 		53AA3EC71C4D546B4E3AD5F34515D297 /* ZFPlayerLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerLogManager.m; path = ZFPlayer/Classes/Core/ZFPlayerLogManager.m; sourceTree = "<group>"; };
 		5436C69252D5661D29BC57CBE2D33EFF /* KTVHCHTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCHTTPServer.m; path = KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPServer.m; sourceTree = "<group>"; };
 		55362154303CD6CBBDF402BE4BF26066 /* VVMakeLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VVMakeLayout.m; path = VVLayout/Source/VVMakeLayout.m; sourceTree = "<group>"; };
+		55BE13691EEEF4F6697A6B27D0F39C30 /* Pods-DouYin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DouYin-acknowledgements.markdown"; sourceTree = "<group>"; };
 		562BE579B63235DC1500F087DB4C7D29 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = KTVCocoaHTTPServer/Classes/HTTPServer.m; sourceTree = "<group>"; };
 		56344FCEC534906F86AA3183DABAEFF9 /* UIView+VVExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+VVExtend.h"; path = "VVLayout/Source/UIView+VVExtend.h"; sourceTree = "<group>"; };
 		56A1E5CD0A9E0017839C4C79B740876A /* KTVCocoaHTTPServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KTVCocoaHTTPServer; path = KTVCocoaHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57189BEB7B1054356555E7DF81A9E671 /* ZFPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayer.h; path = ZFPlayer/Classes/Core/ZFPlayer.h; sourceTree = "<group>"; };
 		576C70261ED897712FD7185560F3AE6F /* KTVHCData+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KTVHCData+Internal.h"; path = "KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCData+Internal.h"; sourceTree = "<group>"; };
 		58B0BB4767806D20E9AAFB939E296120 /* ZFPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerController.m; path = ZFPlayer/Classes/Core/ZFPlayerController.m; sourceTree = "<group>"; };
+		5A29B126019F3251D569F8D62614D3F4 /* Pods-DouYin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DouYin-dummy.m"; sourceTree = "<group>"; };
 		5AB72ED72E572F8C640A8F6580EC9DE1 /* VVLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VVLayoutUtils.h; path = VVLayout/Source/VVLayoutUtils.h; sourceTree = "<group>"; };
+		5C9F4F8539C42F6B6EC1FF939DEDCC8C /* Pods-DouYin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DouYin.modulemap"; sourceTree = "<group>"; };
 		5CF2D007AC4EB9D8D164ED8FEFF3EAC6 /* HTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = KTVCocoaHTTPServer/Classes/HTTPServer.h; sourceTree = "<group>"; };
 		5DA5BB27C07553876FAF5DEFDF1964E7 /* HTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = KTVCocoaHTTPServer/Classes/HTTPResponse.h; sourceTree = "<group>"; };
 		5DACA173D86DB1B0E008BE6F7A100C75 /* UIScrollView+ZFPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ZFPlayer.m"; path = "ZFPlayer/Classes/Core/UIScrollView+ZFPlayer.m"; sourceTree = "<group>"; };
@@ -449,7 +450,9 @@
 		6A3C959AC29515FD94AED308E91ECC34 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
 		6A64E95C1757FA77B126815178306EFD /* ZFPresentTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPresentTransition.h; path = ZFPlayer/Classes/Core/ZFPresentTransition.h; sourceTree = "<group>"; };
 		6AD1147A155A629CFCDBF01A452C6FDF /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		6B7EE1B06D318A14EEBDB5019DEA3B86 /* Pods-DouYin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouYin-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BA02FD5C4AF74B5B735CD2B278DC673 /* ZFNetworkSpeedMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFNetworkSpeedMonitor.h; path = ZFPlayer/Classes/ControlView/ZFNetworkSpeedMonitor.h; sourceTree = "<group>"; };
+		6C4C1DC777AD4E581A1B215F9E324163 /* Pods-DouYin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DouYin"; path = Pods_DouYin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFDDE506F42D59D3F5DE035CF197FD5 /* NSArray+VVAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+VVAdditions.h"; path = "VVLayout/Source/NSArray+VVAdditions.h"; sourceTree = "<group>"; };
 		70759F1C11285E82EEC08965956D1C28 /* KTVHTTPCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHTTPCache.m; path = KTVHTTPCache/KTVHTTPCache.m; sourceTree = "<group>"; };
@@ -469,7 +472,9 @@
 		7A3BC84D973CB9CB9FBA804EF2D8DE4F /* KTVCocoaHTTPServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTVCocoaHTTPServer-dummy.m"; sourceTree = "<group>"; };
 		7C146AB86B38DDE50A62688B116BC2B3 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
 		7D53AC41717502EC24D9104D41BC6390 /* KTVHCDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataStorage.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataStorage.m; sourceTree = "<group>"; };
+		7D604BD7A00961C4A841AE16BDE3EB06 /* Pods-DouYin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DouYin-resources.sh"; sourceTree = "<group>"; };
 		816FFF14A0056809D08E849CDFA79363 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		8225665A5965681B7AEBA8842A198562 /* Pods-DouYin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouYin.release.xcconfig"; sourceTree = "<group>"; };
 		831D4502B74030FA6F91E23EA3849D11 /* HTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPDataResponse.h; path = KTVCocoaHTTPServer/Classes/Responses/HTTPDataResponse.h; sourceTree = "<group>"; };
 		836A908EA900EE0C19C3C23834E58696 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
 		84018EE984197C5AF591ED150C173CE6 /* ZFPresentTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPresentTransition.m; path = ZFPlayer/Classes/Core/ZFPresentTransition.m; sourceTree = "<group>"; };
@@ -498,6 +503,7 @@
 		96195F334796C709EFE7F1122FFC14C4 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		96431B539F6E7F2879E108657708B8DA /* UIView+VVExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+VVExtend.m"; path = "VVLayout/Source/UIView+VVExtend.m"; sourceTree = "<group>"; };
 		977647C7066B02C483D05F2743D724F2 /* KTVCocoaHTTPServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KTVCocoaHTTPServer-Info.plist"; sourceTree = "<group>"; };
+		97B118238F0C4E27C8C84EC975E83530 /* Pods-DouYin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DouYin-umbrella.h"; sourceTree = "<group>"; };
 		986B30708B83A7670E99BD3F2FD48AD2 /* ZFPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFPlayer-umbrella.h"; sourceTree = "<group>"; };
 		994C39AEA501C5EE811E2671C9A4B8EA /* ZFKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFKVOController.h; path = ZFPlayer/Classes/Core/ZFKVOController.h; sourceTree = "<group>"; };
 		9A658A4975E40FD1072C0EEB7A270E49 /* KTVHCHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCHTTPResponse.m; path = KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPResponse.m; sourceTree = "<group>"; };
@@ -512,12 +518,10 @@
 		A1FE60FBD729D062D3DE004B0B379C28 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
 		A30A4846A747EEA26FB1F40F3C2C7165 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
 		A371F41D21A5898454309371F287C503 /* ZFVolumeBrightnessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFVolumeBrightnessView.h; path = ZFPlayer/Classes/ControlView/ZFVolumeBrightnessView.h; sourceTree = "<group>"; };
-		A48B031A80937CBA28210AC92E414672 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
 		A50C257A61FDAFE3F4857E4B7F45387F /* ZFPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZFPlayer.bundle; path = ZFPlayer/Classes/ControlView/ZFPlayer.bundle; sourceTree = "<group>"; };
 		A57C8D8DA0DB60FE85C41E48B4F5D42C /* DDData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = KTVCocoaHTTPServer/Classes/Categories/DDData.h; sourceTree = "<group>"; };
 		A6A1BF7D5C0D0031AAEACCC417D30D66 /* KTVHCLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCLog.m; path = KTVHTTPCache/Classes/KTVHCCommon/KTVHCLog.m; sourceTree = "<group>"; };
 		A706627BED0C7C664CD6E0A63A48E52F /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		A777E7F1BBCF028CFBF8CD726E5376FE /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
 		A77AA997B9C3945C48510C74E5706AB3 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		A78E34F9900B2902A103CB1EB6ECBE6D /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 		A7C85F9C906903F82942529E37486F74 /* KTVHCDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataResponse.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataResponse.m; sourceTree = "<group>"; };
@@ -544,7 +548,6 @@
 		B8F4126B28E7AE823F1975F5F5705E2B /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		B97DEE633171C8481B45FABDCDB7899A /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		B9E7252289A3096CF3FB7C1ADCA0E811 /* KTVHCDataCacheItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataCacheItem.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataCacheItem.m; sourceTree = "<group>"; };
-		BA0F722E6E8D934C0499C4D97C01F9B4 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA728F5D56F36318CF2F78B0207A465E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		BABE1A1076EC91B29A3B721CE3354CE1 /* KTVHCDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCDataRequest.m; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataRequest.m; sourceTree = "<group>"; };
 		BB03412B0E46609127F6F044A34CAA5E /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
@@ -554,7 +557,6 @@
 		BE2364EF525B08F3869A2EB4B975C8D2 /* HTTPLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPLogging.m; path = KTVCocoaHTTPServer/Classes/HTTPLogging.m; sourceTree = "<group>"; };
 		BED2DAEAC057FB9A976C6231C089783A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		BEF16D352C18EF2AA2D5C503F92CA563 /* VVLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VVLayout.debug.xcconfig; sourceTree = "<group>"; };
-		BEF204635CAB8D5E9BF9C80C8F35C087 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		C06A9DAECF3FA87F82E3A7B7BA59D6FC /* ZFFloatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFFloatView.h; path = ZFPlayer/Classes/Core/ZFFloatView.h; sourceTree = "<group>"; };
 		C1E819712D149B3699A4121C56310EC6 /* KTVHCURLTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KTVHCURLTool.m; path = KTVHTTPCache/Classes/KTVHCTools/KTVHCURLTool.m; sourceTree = "<group>"; };
 		C211F2D551269078761B33965585B34B /* KTVHCHTTPConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVHCHTTPConnection.h; path = KTVHTTPCache/Classes/KTVHCHTTPServer/KTVHCHTTPConnection.h; sourceTree = "<group>"; };
@@ -562,13 +564,11 @@
 		C32FD0F2C6E693D93C6F516EB1A9FCCE /* MultipartFormDataParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartFormDataParser.m; path = KTVCocoaHTTPServer/Classes/Mime/MultipartFormDataParser.m; sourceTree = "<group>"; };
 		C67B6AFBC8BB23670A1DBD5AD5399F79 /* KTVHCDownload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVHCDownload.h; path = KTVHTTPCache/Classes/KTVHCDownload/KTVHCDownload.h; sourceTree = "<group>"; };
 		C68186D7FEB9F1633951A3E6BA4FFF19 /* KTVHCDataSourceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KTVHCDataSourceManager.h; path = KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataSourceManager.h; sourceTree = "<group>"; };
-		C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demo"; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A67072B51F922B815368A1F87568CD /* ZFSpeedLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSpeedLoadingView.m; path = ZFPlayer/Classes/ControlView/ZFSpeedLoadingView.m; sourceTree = "<group>"; };
 		C81B4EA1DA65B5691DC614889F619B56 /* UIView+ZFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZFFrame.m"; path = "ZFPlayer/Classes/ControlView/UIView+ZFFrame.m"; sourceTree = "<group>"; };
 		C8731F76E72173AA279594492D4BEAA3 /* ZFSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSliderView.h; path = ZFPlayer/Classes/ControlView/ZFSliderView.h; sourceTree = "<group>"; };
 		C9736C757EC8A9B201D9E79AD9AA9D62 /* HTTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPMessage.m; path = KTVCocoaHTTPServer/Classes/HTTPMessage.m; sourceTree = "<group>"; };
 		CA483D3AF6123691C3D3AC740183C3B8 /* KTVHTTPCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTVHTTPCache.debug.xcconfig; sourceTree = "<group>"; };
-		CBB70EE0949E2DF8D91B7C86D86F9723 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
 		CD19AB6B0F41ECC0B874C149ECF3F57B /* VVLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VVLayout.h; path = VVLayout/Source/VVLayout.h; sourceTree = "<group>"; };
 		CD6D7BB16E8CE30248BDBCDE94A12DA6 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		CDA10CDE8699F9BAC81DD50CFABCF4AF /* HTTPErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPErrorResponse.m; path = KTVCocoaHTTPServer/Classes/Responses/HTTPErrorResponse.m; sourceTree = "<group>"; };
@@ -626,19 +626,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		152E074476F364820C06EC1E0F48CE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD75CEA9ED10925A8D4867917C3E61B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15ED0E037D2A733D7609DD163CDE54D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE6C672F9D4B3CE0D0D83079B8A740F2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29573C37BD46BC1833049F8F4413EF76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4730CBEE5F4CE4A529BBB7C0EE8342AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,20 +787,6 @@
 			path = KTVHTTPCache;
 			sourceTree = "<group>";
 		};
-		1D718AE6524514032A604A59AC06FA3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
-				56A1E5CD0A9E0017839C4C79B740876A /* KTVCocoaHTTPServer */,
-				25BB7D389AA57F912B6D70E4FEB7FE16 /* KTVHTTPCache */,
-				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
-				C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */,
-				CF9ECD1702F9DA3B19B1091C1C2064A6 /* VVLayout */,
-				ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		30706A3DFF3308C2DF4CE29EAE759165 /* AVPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -887,14 +873,6 @@
 			path = "../Target Support Files/ZFPlayer";
 			sourceTree = "<group>";
 		};
-		4EF26C13717685D4B77F8B7134796D0E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7DB564A69A6E28EFCA18BA80648EC686 /* Pods-Demo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		5D7D4FB4854894F3E310B5B8F21EDCEF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,22 +888,22 @@
 			path = "../Target Support Files/KTVCocoaHTTPServer";
 			sourceTree = "<group>";
 		};
-		7DB564A69A6E28EFCA18BA80648EC686 /* Pods-Demo */ = {
+		66AE18492710D3DF5FE74C7C44CCD062 /* Pods-DouYin */ = {
 			isa = PBXGroup;
 			children = (
-				46AC4E2D264464225A8C7F65BFDEA60C /* Pods-Demo.modulemap */,
-				2E24DD87D418711C2ED9B33B68F35656 /* Pods-Demo-acknowledgements.markdown */,
-				BA0F722E6E8D934C0499C4D97C01F9B4 /* Pods-Demo-acknowledgements.plist */,
-				A777E7F1BBCF028CFBF8CD726E5376FE /* Pods-Demo-dummy.m */,
-				08EBDE9394748B1363E0449ED7E11111 /* Pods-Demo-frameworks.sh */,
-				CBB70EE0949E2DF8D91B7C86D86F9723 /* Pods-Demo-Info.plist */,
-				08A237A6A9A71BC0A35A6443C7880082 /* Pods-Demo-resources.sh */,
-				A48B031A80937CBA28210AC92E414672 /* Pods-Demo-umbrella.h */,
-				009D9B0C1210895B201C6EEF6D3C4FCE /* Pods-Demo.debug.xcconfig */,
-				BEF204635CAB8D5E9BF9C80C8F35C087 /* Pods-Demo.release.xcconfig */,
+				5C9F4F8539C42F6B6EC1FF939DEDCC8C /* Pods-DouYin.modulemap */,
+				55BE13691EEEF4F6697A6B27D0F39C30 /* Pods-DouYin-acknowledgements.markdown */,
+				6B7EE1B06D318A14EEBDB5019DEA3B86 /* Pods-DouYin-acknowledgements.plist */,
+				5A29B126019F3251D569F8D62614D3F4 /* Pods-DouYin-dummy.m */,
+				07205E436D3F1426D1D621D60350D12B /* Pods-DouYin-frameworks.sh */,
+				50CE1FC9246DAC510B49E617D5D7EAB9 /* Pods-DouYin-Info.plist */,
+				7D604BD7A00961C4A841AE16BDE3EB06 /* Pods-DouYin-resources.sh */,
+				97B118238F0C4E27C8C84EC975E83530 /* Pods-DouYin-umbrella.h */,
+				1F3AC901BC2438E5A6463104DFD2C867 /* Pods-DouYin.debug.xcconfig */,
+				8225665A5965681B7AEBA8842A198562 /* Pods-DouYin.release.xcconfig */,
 			);
-			name = "Pods-Demo";
-			path = "Target Support Files/Pods-Demo";
+			name = "Pods-DouYin";
+			path = "Target Support Files/Pods-DouYin";
 			sourceTree = "<group>";
 		};
 		82349C7C4F7429978FF7AAC2283DEFA6 /* Core */ = {
@@ -968,6 +946,14 @@
 				37FDA78D8696D0CA2F9B522D4D9B6575 /* ZFReachabilityManager.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		96F31B4646EA8FFF02938528687CD284 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66AE18492710D3DF5FE74C7C44CCD062 /* Pods-DouYin */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9A7FB11C0287E6F39A2CE4CC4BD05B84 /* iOS */ = {
@@ -1077,8 +1063,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				D22BA26F893FF0CACA2F8243790D394D /* Pods */,
-				1D718AE6524514032A604A59AC06FA3F /* Products */,
-				4EF26C13717685D4B77F8B7134796D0E /* Targets Support Files */,
+				FA6BFAC999B1D0BE8BF56C8E105A26FE /* Products */,
+				96F31B4646EA8FFF02938528687CD284 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1167,6 +1153,20 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		FA6BFAC999B1D0BE8BF56C8E105A26FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				56A1E5CD0A9E0017839C4C79B740876A /* KTVCocoaHTTPServer */,
+				25BB7D389AA57F912B6D70E4FEB7FE16 /* KTVHTTPCache */,
+				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh */,
+				6C4C1DC777AD4E581A1B215F9E324163 /* Pods-DouYin */,
+				CF9ECD1702F9DA3B19B1091C1C2064A6 /* VVLayout */,
+				ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		FF8D129C8940EF6C5BF10382965AC3F1 /* Resources */ = {
@@ -1277,11 +1277,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0037A67966590CFFCA650B4DA726F70 /* Headers */ = {
+		A99F5402AA47483FF96E01A390AD0B46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				994F26A9DD822D7D58B7D1845E8289AC /* Pods-Demo-umbrella.h in Headers */,
+				7BDB765F84E32C0E3FFCC268919E1744 /* Pods-DouYin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1395,30 +1395,6 @@
 			productReference = CF9ECD1702F9DA3B19B1091C1C2064A6 /* VVLayout */;
 			productType = "com.apple.product-type.framework";
 		};
-		380694B9ADC0CBB5D29A662EFE7F52C8 /* Pods-Demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D0AB47CCFAED98F326974903A547957 /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
-			buildPhases = (
-				A0037A67966590CFFCA650B4DA726F70 /* Headers */,
-				447EF71C84FB4D46EC58315EB04EF06A /* Sources */,
-				29573C37BD46BC1833049F8F4413EF76 /* Frameworks */,
-				232F20BA164516F9A17D8A981C366129 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2EF5C6681A7F3ADF473F9B2F4D81688 /* PBXTargetDependency */,
-				26FDBF74C518FF2E14223B7B2F311A21 /* PBXTargetDependency */,
-				7D582E1412AB80E17304E25B2BC959D3 /* PBXTargetDependency */,
-				7EB603347D64D0C8BC091A26A9264ACE /* PBXTargetDependency */,
-				816E38F5FE7CBA26120EFBFA2972E809 /* PBXTargetDependency */,
-				A8C5BD302172A4300833E5FF92125F37 /* PBXTargetDependency */,
-			);
-			name = "Pods-Demo";
-			productName = Pods_Demo;
-			productReference = C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */;
-			productType = "com.apple.product-type.framework";
-		};
 		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
@@ -1492,6 +1468,30 @@
 			productReference = ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */;
 			productType = "com.apple.product-type.framework";
 		};
+		C5BC059791C17A17B25DB52491257225 /* Pods-DouYin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77688613143D5AED75880187E47A2808 /* Build configuration list for PBXNativeTarget "Pods-DouYin" */;
+			buildPhases = (
+				A99F5402AA47483FF96E01A390AD0B46 /* Headers */,
+				F80DBDFF6ED9E9E02527001837121AA1 /* Sources */,
+				152E074476F364820C06EC1E0F48CE4C /* Frameworks */,
+				6DF455A0D8E0BAE7EE03333E6F14819D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A02606056FC95F583A67BD1540CB381 /* PBXTargetDependency */,
+				EBA6DE8415F8A67D2981B2796F069D8B /* PBXTargetDependency */,
+				11E5229342D4EEF3ACE5973467410CDF /* PBXTargetDependency */,
+				B9C46C6C4356D444012279D5B56EB1A2 /* PBXTargetDependency */,
+				4EE942C919E0DBB8794C64847D4A309E /* PBXTargetDependency */,
+				01DE08618F89DE2C3C5EBB020D469D84 /* PBXTargetDependency */,
+			);
+			name = "Pods-DouYin";
+			productName = Pods_DouYin;
+			productReference = 6C4C1DC777AD4E581A1B215F9E324163 /* Pods-DouYin */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1510,7 +1510,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D718AE6524514032A604A59AC06FA3F /* Products */;
+			productRefGroup = FA6BFAC999B1D0BE8BF56C8E105A26FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1518,7 +1518,7 @@
 				105186B500AA09A533997F3D16DF7B9E /* KTVCocoaHTTPServer */,
 				8CA0CD098B97A1205DEA694FA044A1C2 /* KTVHTTPCache */,
 				6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */,
-				380694B9ADC0CBB5D29A662EFE7F52C8 /* Pods-Demo */,
+				C5BC059791C17A17B25DB52491257225 /* Pods-DouYin */,
 				12917BC002C15FCB602364361D9E8D66 /* VVLayout */,
 				93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */,
 			);
@@ -1534,13 +1534,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1D3C47644D280DDF89DC93BAA6B126E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		232F20BA164516F9A17D8A981C366129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1569,6 +1562,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DF455A0D8E0BAE7EE03333E6F14819D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE115C62FE168BF216DFB7BE2655C071 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1579,14 +1579,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		447EF71C84FB4D46EC58315EB04EF06A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5723B595879CEED6F686550079832247 /* Pods-Demo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7532F383C7A7C19ABE4214BFED5AA9B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1743,14 +1735,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F80DBDFF6ED9E9E02527001837121AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E3664BAFC22E871BEA76176D13641D /* Pods-DouYin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26FDBF74C518FF2E14223B7B2F311A21 /* PBXTargetDependency */ = {
+		01DE08618F89DE2C3C5EBB020D469D84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KTVCocoaHTTPServer;
-			target = 105186B500AA09A533997F3D16DF7B9E /* KTVCocoaHTTPServer */;
-			targetProxy = FD71CA6E68A80E526CBC3131D8BE887C /* PBXContainerItemProxy */;
+			name = ZFPlayer;
+			target = 93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */;
+			targetProxy = 76D9D1B3254AE6B2E89B959074FF1170 /* PBXContainerItemProxy */;
+		};
+		11E5229342D4EEF3ACE5973467410CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVHTTPCache;
+			target = 8CA0CD098B97A1205DEA694FA044A1C2 /* KTVHTTPCache */;
+			targetProxy = D5C2016339B48C660557E7B888ED6FDA /* PBXContainerItemProxy */;
+		};
+		4A02606056FC95F583A67BD1540CB381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = F96C1B886040F4034BE941F02D549DF1 /* PBXContainerItemProxy */;
+		};
+		4EE942C919E0DBB8794C64847D4A309E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VVLayout;
+			target = 12917BC002C15FCB602364361D9E8D66 /* VVLayout */;
+			targetProxy = 9C76FD6ADB6E52925FD9A0EFA79EF65E /* PBXContainerItemProxy */;
 		};
 		5466C9DF9D405B40C6F5E39D0972ABA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1764,74 +1782,21 @@
 			target = 105186B500AA09A533997F3D16DF7B9E /* KTVCocoaHTTPServer */;
 			targetProxy = A24EC655EF39DD2D340CB4B11D83C2BE /* PBXContainerItemProxy */;
 		};
-		7D582E1412AB80E17304E25B2BC959D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KTVHTTPCache;
-			target = 8CA0CD098B97A1205DEA694FA044A1C2 /* KTVHTTPCache */;
-			targetProxy = B5B4DED29EA0F31E2E1538EDA944A27F /* PBXContainerItemProxy */;
-		};
-		7EB603347D64D0C8BC091A26A9264ACE /* PBXTargetDependency */ = {
+		B9C46C6C4356D444012279D5B56EB1A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
-			targetProxy = B827F708045D6D5FF28FFCEB72951E5F /* PBXContainerItemProxy */;
+			targetProxy = 2D028722C0CA90EEE4653A32054ED2AA /* PBXContainerItemProxy */;
 		};
-		816E38F5FE7CBA26120EFBFA2972E809 /* PBXTargetDependency */ = {
+		EBA6DE8415F8A67D2981B2796F069D8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = VVLayout;
-			target = 12917BC002C15FCB602364361D9E8D66 /* VVLayout */;
-			targetProxy = 74A4FE8428D6E7BB0E776EBF3AA47DE0 /* PBXContainerItemProxy */;
-		};
-		A8C5BD302172A4300833E5FF92125F37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZFPlayer;
-			target = 93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */;
-			targetProxy = BB5A1E2DB3EB497986823D9ECE9B8A52 /* PBXContainerItemProxy */;
-		};
-		C2EF5C6681A7F3ADF473F9B2F4D81688 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = FA2BA8AAB9250536D8F7E3713A11EF90 /* PBXContainerItemProxy */;
+			name = KTVCocoaHTTPServer;
+			target = 105186B500AA09A533997F3D16DF7B9E /* KTVCocoaHTTPServer */;
+			targetProxy = 8D5DCCF8890CF41FCE318E15E135893E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03378C0FBD9A99EFC39CCF365B8FAEC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEF204635CAB8D5E9BF9C80C8F35C087 /* Pods-Demo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0C31B4610DB02AC53145D58446A4A315 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6690D9733142F8CAF7690562C4A10C2A /* CocoaAsyncSocket.debug.xcconfig */;
@@ -2079,6 +2044,41 @@
 			};
 			name = Release;
 		};
+		69587BA477554BC8C888D59AB735F95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8225665A5965681B7AEBA8842A198562 /* Pods-DouYin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouYin/Pods-DouYin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouYin/Pods-DouYin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2140,40 +2140,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		A25680965955BA936FD2B8531FA69904 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 009D9B0C1210895B201C6EEF6D3C4FCE /* Pods-Demo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B01E0BBCD7630CC0CFEE0F7B7FFC0A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2268,6 +2234,40 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD8122ADE9734C17788C7E134B134264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3AC901BC2438E5A6463104DFD2C867 /* Pods-DouYin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouYin/Pods-DouYin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouYin/Pods-DouYin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -2392,11 +2392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D0AB47CCFAED98F326974903A547957 /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+		77688613143D5AED75880187E47A2808 /* Build configuration list for PBXNativeTarget "Pods-DouYin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A25680965955BA936FD2B8531FA69904 /* Debug */,
-				03378C0FBD9A99EFC39CCF365B8FAEC6 /* Release */,
+				BD8122ADE9734C17788C7E134B134264 /* Debug */,
+				69587BA477554BC8C888D59AB735F95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
