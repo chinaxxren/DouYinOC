@@ -11,7 +11,8 @@
 		8227C57027FA05B4008B7CAF /* DouYinPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C56F27FA05B4008B7CAF /* DouYinPlayerCell.m */; };
 		8227C57327FA05C2008B7CAF /* DouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57127FA05C2008B7CAF /* DouYinControlView.m */; };
 		8227C57627FA08DA008B7CAF /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57527FA08DA008B7CAF /* NSString+Size.m */; };
-		8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8227C57827FA0951008B7CAF /* CustomControlView.m */; };
+		82C35D4C27FC9AB600235B94 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C35D4B27FC985700235B94 /* TabBarController.m */; };
+		82C35D4F27FCA7D200235B94 /* FullControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C35D4D27FCA7D200235B94 /* FullControlView.m */; };
 		8FCFD824EEA9B19F85F38EBD /* Pods_DouYin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEA628110EC389BAF90C49E /* Pods_DouYin.framework */; };
 		B6D612167D5CB9C0F674DE38 /* DouYinBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D617CE2028FC2B371F7446 /* DouYinBaseCell.m */; };
 		B6D617A259C8889BFB567B2E /* PreLoaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D6101EF164960B5172BA47 /* PreLoaderModel.m */; };
@@ -44,16 +45,17 @@
 		8227C56527F98147008B7CAF /* VideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
 		8227C56627F98147008B7CAF /* SourceURLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceURLs.h; sourceTree = "<group>"; };
 		8227C56727F98147008B7CAF /* VideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoData.m; sourceTree = "<group>"; };
-		8227C56A27FA0582008B7CAF /* DouYinPlayerCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinPlayerCellDelegate.h; sourceTree = "<group>"; };
 		8227C56E27FA05B4008B7CAF /* DouYinPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinPlayerCell.h; sourceTree = "<group>"; };
 		8227C56F27FA05B4008B7CAF /* DouYinPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinPlayerCell.m; sourceTree = "<group>"; };
 		8227C57127FA05C2008B7CAF /* DouYinControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinControlView.m; sourceTree = "<group>"; };
 		8227C57227FA05C2008B7CAF /* DouYinControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinControlView.h; sourceTree = "<group>"; };
 		8227C57427FA08DA008B7CAF /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
 		8227C57527FA08DA008B7CAF /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
-		8227C57727FA0951008B7CAF /* CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomControlView.h; sourceTree = "<group>"; };
-		8227C57827FA0951008B7CAF /* CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomControlView.m; sourceTree = "<group>"; };
 		8227C57A27FA0AFE008B7CAF /* DonYinConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DonYinConstant.h; sourceTree = "<group>"; };
+		82C35D4A27FC985700235B94 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		82C35D4B27FC985700235B94 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		82C35D4D27FCA7D200235B94 /* FullControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullControlView.m; sourceTree = "<group>"; };
+		82C35D4E27FCA7D200235B94 /* FullControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullControlView.h; sourceTree = "<group>"; };
 		832524AD299CC22A9318A3CE /* Pods-DouYin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYin/Pods-DouYin.release.xcconfig"; sourceTree = "<group>"; };
 		9BEA628110EC389BAF90C49E /* Pods_DouYin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinImageCell.m; sourceTree = "<group>"; };
@@ -129,15 +131,14 @@
 		8227C56927FA053B008B7CAF /* DouYin */ = {
 			isa = PBXGroup;
 			children = (
+				82C35D4E27FCA7D200235B94 /* FullControlView.h */,
+				82C35D4D27FCA7D200235B94 /* FullControlView.m */,
 				8227C56E27FA05B4008B7CAF /* DouYinPlayerCell.h */,
 				8227C56F27FA05B4008B7CAF /* DouYinPlayerCell.m */,
 				8227C57227FA05C2008B7CAF /* DouYinControlView.h */,
 				8227C57127FA05C2008B7CAF /* DouYinControlView.m */,
-				8227C56A27FA0582008B7CAF /* DouYinPlayerCellDelegate.h */,
 				B6D6119F43A3EE000C1CAE87 /* DouYinPlayerController.m */,
 				B6D611AB981BE00BC9E67C80 /* DouYinPlayerController.h */,
-				8227C57727FA0951008B7CAF /* CustomControlView.h */,
-				8227C57827FA0951008B7CAF /* CustomControlView.m */,
 				B6D6100E7B290CD7FDB60078 /* DouYinImageCell.m */,
 				B6D615D8F6AE72A9E4A376C1 /* DouYinImageCell.h */,
 				B6D617CE2028FC2B371F7446 /* DouYinBaseCell.m */,
@@ -183,6 +184,8 @@
 				B6D61BBD1A76BC55D1BF964F /* PreLoaderManager.h */,
 				B6D6101EF164960B5172BA47 /* PreLoaderModel.m */,
 				B6D61549A56B6276D084ECBD /* PreLoaderModel.h */,
+				82C35D4A27FC985700235B94 /* TabBarController.h */,
+				82C35D4B27FC985700235B94 /* TabBarController.m */,
 				B6D61B0DE0E918B240898439 /* Playable.h */,
 				8227C57A27FA0AFE008B7CAF /* DonYinConstant.h */,
 				B9BEADD61D253B97003303C1 /* Assets.xcassets */,
@@ -384,17 +387,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C35D4C27FC9AB600235B94 /* TabBarController.m in Sources */,
 				B9BEADD21D253B97003303C1 /* ViewController.m in Sources */,
 				B9BEADCF1D253B97003303C1 /* AppDelegate.m in Sources */,
 				8227C57327FA05C2008B7CAF /* DouYinControlView.m in Sources */,
 				8227C57627FA08DA008B7CAF /* NSString+Size.m in Sources */,
 				8227C56827F98147008B7CAF /* VideoData.m in Sources */,
 				B9BEADCC1D253B97003303C1 /* main.m in Sources */,
+				82C35D4F27FCA7D200235B94 /* FullControlView.m in Sources */,
 				B6D619697A387C4DB80D43FE /* PreLoaderManager.m in Sources */,
 				B6D617A259C8889BFB567B2E /* PreLoaderModel.m in Sources */,
 				8227C57027FA05B4008B7CAF /* DouYinPlayerCell.m in Sources */,
 				B6D61927BF8217C196773466 /* DouYinPlayerController.m in Sources */,
-				8227C57927FA0951008B7CAF /* CustomControlView.m in Sources */,
 				B6D61AB21CEDFF01504044DD /* DouYinImageCell.m in Sources */,
 				B6D612167D5CB9C0F674DE38 /* DouYinBaseCell.m in Sources */,
 			);
@@ -522,7 +526,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = waqu.com.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waqu.douyin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -535,7 +539,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = waqu.com.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waqu.douyin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

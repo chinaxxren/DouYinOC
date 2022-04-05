@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CustomControlView : UIView <ZFPlayerMediaControl>
+@interface FullControlView : UIView <ZFPlayerMediaControl>
 
 /// 控制层自动隐藏的时间，默认2.5秒
 @property (nonatomic, assign) NSTimeInterval autoHiddenTimeInterval;

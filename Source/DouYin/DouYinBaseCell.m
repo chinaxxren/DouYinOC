@@ -134,7 +134,7 @@
         _coverImageView.tag = 0;
     }
     self.titleLabel.text = data.title;
-    [self.coverImageView setImageWithURLString:self.data.cover placeholder:[UIImage imageNamed:@"loading_bgView"]];
+//    [self.coverImageView setImageWithURLString:self.data.cover placeholder:[UIImage imageNamed:@"loading_bgView"]];
 }
 
 - (UIImageView *)coverImageView {

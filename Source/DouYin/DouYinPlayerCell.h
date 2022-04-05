@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DouYinPlayerCellDelegate.h"
 #import "DouYinBaseCell.h"
 
 @class VideoData;
+
+@protocol DouYinPlayerCellDelegate <NSObject>
+
+- (void)zf_douyinRotation;
+
+@end
 
 @interface DouYinPlayerCell : DouYinBaseCell
 

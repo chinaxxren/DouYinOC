@@ -11,7 +11,7 @@
 
 #import "DouYinPlayerCell.h"
 #import "DouYinControlView.h"
-#import "CustomControlView.h"
+#import "FullControlView.h"
 #import "PreLoaderManager.h"
 #import "DonYinConstant.h"
 #import "DouYinImageCell.h"
@@ -26,9 +26,8 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 @property(nonatomic, strong) ZFPlayerController *player;
 @property(nonatomic, strong) DouYinControlView *controlView;
 @property(nonatomic, strong) NSMutableArray *dataSource;
-@property(nonatomic, strong) UIButton *backBtn;
-@property(nonatomic, strong) CustomControlView *fullControlView;
-@property(nonatomic) BOOL isInited;
+@property(nonatomic, strong) FullControlView *fullControlView;
+@property(nonatomic, assign) BOOL isInited;
 
 @end
 
@@ -37,10 +36,7 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
-    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.tableView];
-    [self.view addSubview:self.backBtn];
 
     NSLog(@"%@", NSTemporaryDirectory());
     [self requestData];
@@ -58,6 +54,7 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 
     self.player.allowOrentitaionRotation = NO;
     self.player.WWANAutoPlay = YES;
+    
     /// 1.0是完全消失时候
     self.player.playerDisapperaPercent = 1.0;
     /// 播放器view露出一半时候开始播放
@@ -140,14 +137,10 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
     };
 }
 
-- (void)viewWillLayoutSubviews {
-    [super viewWillLayoutSubviews];
-
-    self.backBtn.frame = CGRectMake(0, CGRectGetMaxY([UIApplication sharedApplication].statusBarFrame), 36, 36);
-}
-
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
 
     if (!self.isInited) {
         self.isInited = YES;
@@ -271,10 +264,6 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
 
 #pragma mark - private method
 
-- (void)backClick:(UIButton *)sender {
-    [self.navigationController popViewControllerAnimated:YES];
-}
-
 /// play the video
 - (void)playTheVideoAtIndexPath:(NSIndexPath *)indexPath {
     VideoData *data = self.dataSource[indexPath.row];
@@ -321,9 +310,9 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
     return _controlView;
 }
 
-- (CustomControlView *)fullControlView {
+- (FullControlView *)fullControlView {
     if (!_fullControlView) {
-        _fullControlView = [[CustomControlView alloc] init];
+        _fullControlView = [[FullControlView alloc] init];
     }
     return _fullControlView;
 }
@@ -333,15 +322,6 @@ static NSString *kImageIdentifier = @"kImageIdentifier";
         _dataSource = @[].mutableCopy;
     }
     return _dataSource;
-}
-
-- (UIButton *)backBtn {
-    if (!_backBtn) {
-        _backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_backBtn setImage:[UIImage imageNamed:@"icon_titlebar_whiteback"] forState:UIControlStateNormal];
-        [_backBtn addTarget:self action:@selector(backClick:) forControlEvents:UIControlEventTouchUpInside];
-    }
-    return _backBtn;
 }
 
 @end

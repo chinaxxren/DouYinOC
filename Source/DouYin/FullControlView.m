@@ -6,7 +6,7 @@
 //  Copyright © 2019 紫枫. All rights reserved.
 //
 
-#import "CustomControlView.h"
+#import "FullControlView.h"
 
 #import <ZFPlayer/ZFPlayerController.h>
 #import <ZFPlayer/ZFPlayerConst.h>
@@ -16,7 +16,7 @@
 #import "ZFSliderView.h"
 #import "UIImageView+ZFCache.h"
 
-@interface CustomControlView () <ZFSliderViewDelegate>
+@interface FullControlView () <ZFSliderViewDelegate>
 
 /// 底部工具栏
 @property (nonatomic, strong) UIView *bottomToolView;
@@ -54,7 +54,7 @@
 
 @end
 
-@implementation CustomControlView
+@implementation FullControlView
 
 @synthesize player = _player;
 
